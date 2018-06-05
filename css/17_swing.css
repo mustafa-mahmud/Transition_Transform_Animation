@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 9:47:09 PM
+    Author     : MITHU
+*/
+
+.myClass{
+    width: 200px;
+    height: 200px;
+    background: gray;
+}
+.myClass:hover{
+    animation-name: swing;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@keyframes swing{
+    15%{
+        transform:translateX(10px);
+    }
+    30%{
+        transform:translateX(-10px);
+    }
+    50%{
+        transform:translateX(5px);
+    }
+    65%{
+        transform:translateX(-5px);
+    }
+    80%{
+        transform:translateX(3px);
+    }
+    90%{
+        transform:translateX(-3px);
+    }
+    100{
+        transform:translateX(0px);
+    }
+}

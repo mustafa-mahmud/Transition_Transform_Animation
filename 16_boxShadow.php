@@ -17,7 +17,7 @@ and open the template in the editor.
         <![endif]-->
         <title></title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/" />
+        <link rel="stylesheet" href="css/16_boxShadow.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -29,7 +29,6 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row">
                 <div class="myClass m-5">
-                    <h1>HEADING 1</h1>
                 </div>
             </div>
         </div>

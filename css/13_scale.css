@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 9:47:09 PM
+    Author     : MITHU
+*/
+
+.myClass{
+    width: 500px;
+    height: 300px;
+    background: gray;
+    opacity: 0.5;
+    transition: all 2s ease;
+}
+.myClass:hover{
+    opacity: 1;
+    background: olive;
+    transform: scale(0.5);
+}

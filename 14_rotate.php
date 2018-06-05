@@ -17,7 +17,7 @@ and open the template in the editor.
         <![endif]-->
         <title></title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/" />
+        <link rel="stylesheet" href="css/14_rotate.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />

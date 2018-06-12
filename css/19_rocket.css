@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 10:38:21 PM
+    Author     : MITHU
+*/
+/* initial state */
+#outerspace {
+    position: relative;
+    height: 400px;
+    width: 750px;
+    background: url("../images/outerspace.jpg");
+    color: #fff;
+    background-position: 0 0;
+    transition: 3s linear;/*this need for background moveing*/
+}
+div.rocket {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: 3s ease-in;
+}
+div.rocket div {
+    width: 92px;
+    height: 215px;
+    background: url("../images/rocket.gif") no-repeat;
+    transition: 2s ease-in-out;
+}
+#outerspace:hover{
+    background-position: -100% 0;
+}
+#outerspace:hover div.rocket {
+    transform: translate(540px,-200px);
+}
+#outerspace:hover div.rocket div {
+    transform: rotate(70deg);
+}

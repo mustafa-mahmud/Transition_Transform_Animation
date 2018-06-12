@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 7, 2018, 11:22:55 AM
+    Author     : MITHU
+*/
+
+.myClass{
+    width: 800px;
+    height: 180px;
+    background: #000 url("../images/bg-clouds.png");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    /*name,duration,timing,count*/
+    animation: moveingBackground 15s linear infinite; 
+}
+@keyframes moveingBackground{
+    from{background-position: 0 0}
+    to{background-position:100% 0}
+}

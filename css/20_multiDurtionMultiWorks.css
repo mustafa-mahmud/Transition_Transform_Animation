@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 7, 2018, 8:21:35 AM
+    Author     : MITHU
+*/
+
+.block{
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background: blue;
+    transition-property: left,top,background,transform;
+    transition-duration: 1s,2s,3s,4s;
+    transition-timing-function: ease-out,ease-in,linear,ease-in-out;
+    transition-delay: 0,0,0,1s;
+}
+.stage:hover .block{
+    left: 200px;
+    top: 200px;
+    background: red;
+    transform: rotate(360deg);
+    position: relative;
+}
